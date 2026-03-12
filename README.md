@@ -1,50 +1,53 @@
-# Welcome to your Expo app 👋
+# Uber for Stubble 🌾
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Uber for Stubble is a mobile application that connects farmers with biomass collectors to efficiently collect crop residue instead of burning it.
 
-## Get started
+The platform helps reduce stubble burning by enabling real-time coordination between farmers and collectors with smart prioritization and live tracking.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+• Farmer crop residue listing  
+• Collector request acceptance  
+• Real-time live location tracking  
+• AI-based listing prioritization  
+• Route mapping for pickup  
+• Firebase realtime database
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+React Native (Expo)  
+Firebase Realtime Database  
+Google Maps  
+TypeScript
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Project Structure
 
-When you're ready, run:
+app/ – application screens  
+src/ – core logic (AI prioritization, firebase, services)  
+components/ – reusable UI components  
+assets/ – images and icons  
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Installation
 
-## Learn more
+1. Clone the repository
 
-To learn more about developing your project with Expo, look at the following resources:
+2. Install dependencies
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+3. Run the app
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## Future Improvements
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+• Route optimization using AI  
+• Demand prediction system  
+• Voice interface for farmers  
+• Collector scheduling system
