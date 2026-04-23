@@ -1,6 +1,6 @@
-# Uber for Stubble 🌾
+# real-time platform for crop residue collection and biomass logistics
 
-Uber for Stubble is a mobile application that connects farmers with biomass collectors to efficiently collect crop residue instead of burning it.
+A mobile application that connects farmers with biomass collectors to efficiently collect crop residue instead of burning it.
 
 The platform helps reduce stubble burning by enabling real-time coordination between farmers and collectors with smart prioritization and live tracking.
 
